@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import systaldyn from "./company/systaldyn.png"
+import onitLogo from "./company/onitLogo.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -61,4 +62,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  onitLogo,
 };
