@@ -31,6 +31,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import OniTServices from "./OniTServices.png";
+import AIEASE from "./AI-EASE.png";
+import MaterialUI from "./Material.png";
+import OniTDashboard from "./OniTDashboard.png";
 
 export {
   logo,
@@ -61,6 +65,10 @@ export {
   tesla,
   carrent,
   jobit,
+  OniTServices,
+  AIEASE,
+  MaterialUI,
   tripguide,
   onitLogo,
+  OniTDashboard
 };

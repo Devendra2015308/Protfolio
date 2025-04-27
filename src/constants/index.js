@@ -25,6 +25,10 @@ import {
   threejs,
   systaldyn,
   onitLogo,
+  OniTServices,
+  AIEASE,
+  MaterialUI,
+  OniTDashboard
 } from "../assets";
 
 export const navLinks = [
@@ -192,32 +196,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: AIEASE,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
+    name: "Material-UI HITACHI",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -234,9 +217,51 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: MaterialUI,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "OniT Services Website",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: OniTServices,
+    source_code_link: "https://github.com/AshuOniT/onit-next",
+  },
+  {
+    name: "OniT Admin Dashboard",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: OniTDashboard,
+    source_code_link: "https://github.com/AshuOniT/onit-next",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
