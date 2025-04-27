@@ -117,32 +117,6 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "React.js Developer",
-  //   company_name: "Starbucks",
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "March 2020 - April 2021",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
     title: "Web Developer",
     company_name: "Systaldyn",
@@ -150,10 +124,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "July 2024 - Feb 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining dynamic web applications using React.js and JavaScript, ensuring optimized performance and seamless user experiences.",
+      "Collaborating closely with backend teams and cross-functional stakeholders to integrate RESTful APIs and deliver high-quality, user-centric solutions..",
+      "Implementing responsive design principles and ensuring compatibility across multiple devices and browsers.",
+      "Actively participating in code reviews, offering constructive feedback, and staying updated with the latest frontend technologies to continuously improve development processes",
     ],
   },
   {
@@ -163,10 +137,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "March 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working as a Frontend Developer, leading the development and maintenance of the company's website, admin dashboard, and mobile application using ReactJS, Next.js, React Native, TypeScript, Redux Toolkit, and JavaScript.",
+      "Designed and developed the company's website from scratch, implementing complex functionalities and ensuring a responsive, user-friendly interface across all devices.",
+      "Built and enhanced the admin dashboard with advanced features, seamless API integrations, and efficient state management using Redux Toolkit.",
+      "Collaborated directly with business stakeholders to align technical solutions with business needs in a service-based model similar to UrbanClap and JustDial.",
+      "Managed the complete tech stack for the company, ensuring smooth operations, scalability, and consistent updates across all platforms.",
     ],
   },
 ];
