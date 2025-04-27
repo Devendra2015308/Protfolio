@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import systaldyn from "./company/systaldyn.png"
+import systaldyn from "./company/systaldyn.png";
 import onitLogo from "./company/onitLogo.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,10 +31,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import OniTServices from "./OniTServices.png";
-import AIEASE from "./AI-EASE.png";
-import MaterialUI from "./Material.png";
-import OniTDashboard from "./OniTDashboard.png";
+import OniTServices from "./Projects/OniTServices.png";
+import AIEASE from "./Projects/AI-EASE.png";
+import MaterialUI from "./Projects/Material.png";
+import OniTDashboard from "./Projects/OniTDashboard.png";
+import JobPortal from "./Projects/JobPortal.png";
+import E_Commerce from "./Projects/E-Commerce.png";
+
+import Utkarsh from "./testimonial/utkarsh.jpeg";
+import Ashutosh from "./testimonial/ashutosh.png";
+import Ashish from "./testimonial/Ashish.jpeg";
 
 export {
   logo,
@@ -45,6 +51,7 @@ export {
   github,
   menu,
   close,
+  // Tech
   css,
   docker,
   figma,
@@ -58,11 +65,13 @@ export {
   tailwind,
   typescript,
   threejs,
+  // Comapnies
   meta,
   systaldyn,
   shopify,
   starbucks,
   tesla,
+  // Projects
   carrent,
   jobit,
   OniTServices,
@@ -70,5 +79,11 @@ export {
   MaterialUI,
   tripguide,
   onitLogo,
-  OniTDashboard
+  OniTDashboard,
+  JobPortal,
+  E_Commerce,
+  // Testimonial
+  Utkarsh,
+  Ashutosh,
+  Ashish,
 };

@@ -28,7 +28,12 @@ import {
   OniTServices,
   AIEASE,
   MaterialUI,
-  OniTDashboard
+  OniTDashboard,
+  JobPortal,
+  E_Commerce,
+  Utkarsh,
+  Ashutosh,
+  Ashish,
 } from "../assets";
 
 export const navLinks = [
@@ -153,27 +158,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "We believed creating a website this impressive would be a challenge, but Dev exceeded every expectation. He delivered a product that aligns perfectly with our vision and goes beyond what we imagined.",
+    name: "Utkarsh Bisaria",
+    designation: "Manager",
+    company: "Systaldyn",
+    image: Utkarsh,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Dev’s unwavering commitment to client success, attention to detail, and passion for his work truly set him apart. His professionalism and dedication make him a standout in the competitive field of web development.",
+    name: "Ashutosh Agarwal",
+    designation: "Owner & Director",
+    company: "OniT Services",
+    image: Ashutosh,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "As the final year project head, I was deeply impressed by Dev's technical expertise, dedication, and attention to detail. His invaluable contributions helped ensure the project's success, and I highly recommend his work.",
+    name: "Ashish Dixit",
+    designation: "Professor",
+    company: "AKGEC",
+    image: Ashish,
   },
 ];
 
@@ -181,18 +186,22 @@ const projects = [
   {
     name: "AI-EASE HITACHI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI-EASE HITACHI is a web-based internal platform developed for Hitachi America. As a Frontend Developer, I built responsive user interfaces, integrated RESTful APIs, and added complex functionalities using ReactJS and TailwindCSS to enhance the application's performance and user experience.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
@@ -202,18 +211,22 @@ const projects = [
   {
     name: "Material-UI HITACHI",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Material-UI HITACHI is a web-based internal project developed for Hitachi America. As a Frontend Developer, I designed and built responsive user interfaces using ReactJS and TailwindCSS, integrated RESTful APIs, and implemented complex functionalities to enhance usability and performance.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
@@ -223,18 +236,22 @@ const projects = [
   {
     name: "OniT Services Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "OniT Services is a service-based platform offering solutions like AC repair, electrician services, digital device support, and more. I developed this website from scratch, building responsive UIs and integrating key functionalities to deliver a seamless user experience.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
       },
       {
         name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
@@ -244,24 +261,74 @@ const projects = [
   {
     name: "OniT Admin Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "OniT Admin Dashboard is an internal platform used to manage and analyze service requests, centers, and more. I contributed by adding complex functionalities, integrating RESTful APIs, and developing new screens to enhance the dashboard’s capabilities.",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ExpressJs",
         color: "pink-text-gradient",
       },
     ],
     image: OniTDashboard,
     source_code_link: "https://github.com/AshuOniT/onit-next",
-  }
+  },
+  {
+    name: "Job Portal",
+    description:
+      "Job portal is a web application that allows users to log in as either recruiters or candidates. Recruiters can post job openings, while candidates can browse available jobs and apply for them. When a candidate applies, recruiters can view and manage the applications, providing a seamless hiring process.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: JobPortal,
+    source_code_link: "https://github.com/AshuOniT/onit-next",
+  },
+  {
+    name: "E-Commerce Admin Dashboard",
+    description:
+      "E-Commerce Admin Dashboard is a web application that gives administrators a centralized interface to manage product listings, inventory levels, order fulfillment, and customer accounts, while providing real-time sales analytics and reporting through dynamic, API-driven data visualizations.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: E_Commerce,
+    source_code_link: "https://github.com/AshuOniT/onit-next",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
