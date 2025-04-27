@@ -32,11 +32,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import OniTServices from "./Projects/OniTServices.png";
-import AIEASE from "./Projects/AI-EASE.png";
+import AIEASE from "./Projects/aiease.png";
 import MaterialUI from "./Projects/Material.png";
 import OniTDashboard from "./Projects/OniTDashboard.png";
 import JobPortal from "./Projects/JobPortal.png";
-import E_Commerce from "./Projects/E-Commerce.png";
+import E_Commerce from "./Projects/ecommerce.png";
 
 import Utkarsh from "./testimonial/utkarsh.jpeg";
 import Ashutosh from "./testimonial/ashutosh.png";
